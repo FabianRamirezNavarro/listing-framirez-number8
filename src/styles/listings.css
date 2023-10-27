@@ -1,0 +1,44 @@
+.horizontal-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  }
+  
+  .horizontal-list-item {
+    width: 25%; /* 25% of the container's width, which will fit 4 items per row */
+    box-sizing: border-box; /* Include padding and borders in the width calculation */
+    padding: 10px; /* Add spacing between items if desired *//* Center-align the content */
+    border: 1px solid #ccc;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .filters-list {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .button-listings {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .paragraph-container {
+    display: flex;
+}
+
+.priceSize{
+  font-size: large;
+}
+
+p {
+    margin: 5px;
+}
